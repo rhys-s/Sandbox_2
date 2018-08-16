@@ -9,13 +9,13 @@ def evaluate_mark(mark):
     if mark > 100 or mark < 0:
         return 'Please enter a valid score'
     elif mark >= 85:
-        return 'Thats a hd my boi'
+        return 'HD'
     elif mark >= 75:
-        return 'Living that distinction life'
+        return 'D'
     elif mark >= 65:
-        return 'A credit will do'
+        return 'Credit'
     elif mark >= 50:
-        return "p's get degrees"
+        return "Pass"
     else:
         return ' You have failed unluggy'
 
